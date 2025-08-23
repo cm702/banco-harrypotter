@@ -1,0 +1,12 @@
+.historial {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 300px;
+  background: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-height: 90vh;
+  overflow-y: auto;
+}

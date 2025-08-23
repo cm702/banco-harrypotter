@@ -1,0 +1,64 @@
+.navbar {
+    background-color: #222;
+    color: rgb(8, 4, 4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.562); /* blanco con 70% de opacidad */
+    border-radius: 10px;                        /* bordes redondeados */
+    padding: 20px;                              /* espacio interno */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* sombra suave */
+}
+
+.navbartitle{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbarlink{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarlink a {
+    color: rgb(8, 7, 7); /* Links en blanco */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.navbarlink a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+/* ================================
+   display → define el tipo de caja
+   ================================
+   block → ocupa todo el ancho disponible
+   inline → ocupa solo el espacio necesario (como texto)
+   flex → organiza hijos en fila o columna flexible
+   grid → organiza hijos en filas + columnas (cuadrícula)
+*/
+
+/* ================================
+   justify-content → eje principal
+   ================================
+   flex-start → al inicio
+   flex-end → al final
+   center → al centro
+   space-between → espacio igual entre, sin espacio en bordes
+   space-around → espacio alrededor, incluye bordes
+   space-evenly → espacio igual en todo (entre y en bordes)
+*/
+
+/* ================================
+   align-items → eje cruzado
+   ================================
+   stretch → estira los hijos (valor por defecto)
+   flex-start → alineados al inicio del eje cruzado
+   flex-end → alineados al final del eje cruzado
+   center → centrados en el eje cruzado
+   baseline → alineados según la línea base del texto
+*/

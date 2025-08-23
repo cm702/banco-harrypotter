@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  background: #fff;
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+body {
+  background-image: url('fotos/banco.jpg'); /* tu imagen, ponla en /public */
+  background-size: cover;              /* que cubra toda la pantalla */
+  background-position: center;         /* centrada */
+  background-repeat: no-repeat;        /* que no se repita */
+  background-attachment: fixed;        /* se queda fijo al hacer scroll */
+}
+.card-transparente {
+  background-color: rgba(255, 255, 255, 0.7); /* blanco con 70% de opacidad */
+  border-radius: 10px;                        /* bordes redondeados */
+  padding: 20px;                              /* espacio interno */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* sombra suave */
+}
+
+/*maneja el fondo de pantalla universal*/
